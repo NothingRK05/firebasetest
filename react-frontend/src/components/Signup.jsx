@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase.js";
+import { Link } from "react-router-dom";
 
 export default function Signup() {
     const [email, setEmail] = useState("");
@@ -27,7 +28,7 @@ export default function Signup() {
             />
             <button onClick={handleSignup}>Create Account</button>
             <p>
-                Already have an account? <Link to="/">Login</Link>
+                Already have an account? <Link to="/login">Login</Link>
             </p>
         </div>
     );
