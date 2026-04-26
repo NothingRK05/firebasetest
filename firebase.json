@@ -14,5 +14,19 @@
         "supportEmail": "ricks3558@gmail.com"
       }
     }
+  },
+  "hosting": {
+    "public": "react-frontend/dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }
