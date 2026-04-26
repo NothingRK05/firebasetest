@@ -30,6 +30,9 @@ export default function Login() {
             <p>
                 Don’t have an account? <Link to="/signup">Sign up</Link>
             </p>
+            <p>
+                <Link to="/reset">Forgot password?</Link>
+            </p>
 
         </div>
     );

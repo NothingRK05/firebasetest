@@ -26,6 +26,9 @@ export default function Signup() {
                 onChange={(e) => setPassword(e.target.value)}
             />
             <button onClick={handleSignup}>Create Account</button>
+            <p>
+                Already have an account? <Link to="/">Login</Link>
+            </p>
         </div>
     );
 }
