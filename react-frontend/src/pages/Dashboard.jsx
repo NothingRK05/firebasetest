@@ -9,6 +9,7 @@ export default function Dashboard() {
         <div style={{ padding: 40 }}>
             <h1>Dashboard</h1>
             <p>You are logged in as: {currentUser?.email}</p>
+            
 
             <button onClick={() => signOut(auth)}>Logout</button>
         </div>
