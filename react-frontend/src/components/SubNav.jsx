@@ -3,9 +3,9 @@ import { useAuth } from "../context/AuthContext";
 import "./SubNav.css";
 
 const TABS = [
-  { label: "Blank 1", path: "/blank1" },
-  { label: "Blank 2", path: "/blank2" },
-  { label: "Blank 3", path: "/blank3" },
+  { label: "Trips", path: "/trips" },
+  { label: "Essentials", path: "/essentials" },
+  { label: "Events", path: "/events" },
 ];
 
 export default function SubNav() {
